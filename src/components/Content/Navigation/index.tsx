@@ -94,7 +94,7 @@ export const NavigationList = () => {
     useSelector((state: IRootState) => state.sections?.currentSection) || "";
   const filteredSections = sections.filter((sec) => !sec?.hide);
   const [start, setStart] = useState(0);
-  const limit = useNavigationSize();
+  const limit = 5;
   return (
     <NavigationWrapper>
       {limit < filteredSections.length && (

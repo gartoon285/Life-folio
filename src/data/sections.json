@@ -23,10 +23,5 @@
     "name": "Skills",
     "key": "skills",
     "hide":false
-  },
-  {
-    "name": "Certifications",
-    "key": "certifications",
-    "hide":false
   }
 ]
