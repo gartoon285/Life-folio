@@ -3,8 +3,6 @@ import { StyleConstants } from "../../styles/StyleConstants";
 import Contact from "../../data/Contact.json";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import { CustomButtonFooter } from "../../styles/sectionStyles";
 const FooterContainer = styled(Box)(({ theme }) => ({
   height: 150,
@@ -66,31 +64,17 @@ const FooterContainer = styled(Box)(({ theme }) => ({
   },
 }));
 export const Footer = () => {
-  const { emailId = "", linkedIn = "", twitter = "", github = "" } = Contact;
+  const { emailId = "",github = "" } = Contact;
   return (
     <FooterContainer>
       <Box className="mail">
         <EmailIcon /> {emailId}
       </Box>
-      <Box className="links">
+      <Box className="links"  style={{ justifyContent: "center" }}>
         {github && (
           <div>
-            <Link href={github} target="_blank" style={{ color: "black" }}>
+            <Link href={github} target="_blank" style={{ color: "black" , display: "flex", alignItems: "center" }}>
               <GitHubIcon />
-            </Link>
-          </div>
-        )}
-        {linkedIn && (
-          <div>
-            <Link href={linkedIn} target="_blank" style={{ color: "black" }}>
-              <LinkedInIcon />
-            </Link>
-          </div>
-        )}
-        {twitter && (
-          <div>
-            <Link href={twitter} target="_blank" style={{ color: "black" }}>
-              <TwitterIcon />
             </Link>
           </div>
         )}
@@ -101,26 +85,10 @@ export const Footer = () => {
         <a rel="noreferrer" href="https://github.com/harini24" target="_blank">
           Harini Sivakumar
         </a>
-      </Box>
-      <Box className="actions">
-        <CustomButtonFooter>
-          <a
-            rel="noreferrer"
-            href="https://github.com/harini24/Life-folio/fork"
-            target="_blank"
-          >
-            Fork
+      <div></div>2023 - Customized by {""}
+        <a rel="noreferrer" href="https://github.com/gartoon285" target="_blank">
+          Sathaporn Bunyiseng
           </a>
-        </CustomButtonFooter>
-        <CustomButtonFooter>
-          <a
-            rel="noreferrer"
-            href="https://github.com/harini24/Life-folio"
-            target="_blank"
-          >
-            Star
-          </a>
-        </CustomButtonFooter>
       </Box>
     </FooterContainer>
   );

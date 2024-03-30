@@ -1,12 +1,11 @@
 import { styled, Box } from "@mui/material";
-import MyImage from "../../../assets/pic.png";
+import MyImage from "../../../assets/pict.jpg";
 import Resume from "../../../assets/resume.pdf";
 import {
   CustomButton,
   SectionWrapper,
   TitleWrapper,
 } from "../../../styles/sectionStyles";
-import aboutMeInfo from "../../../data/AboutMe.json";
 import { useEffect } from "react";
 const AboutMeContainer = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -43,7 +42,10 @@ export const AboutMe = () => {
       <AboutMeContainer>
         <img src={MyImage} />
         <DetailsWrapper>
-          <div>{aboutMeInfo.aboutMe}</div>
+          <div>
+          I’m Sathaporn Bunyiseng. I’m interested in IoT or Microcontroller. I started writing code to control Microcontroller since 2015. <br/>In 2018 I got honorable mention in a project competition using Microcontroller.
+          Present I’m doing a project about Microcontroller to control Robot.
+          </div>
           <div className="actions">
             <CustomButton>
               <a href={Resume} rel="noreferrer" target="_blank">
