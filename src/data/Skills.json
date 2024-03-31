@@ -1,20 +1,19 @@
 {
   "softSkills": [
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name"
+    "Critical Thinking",
+    "Creativity",
+    "Collaboration and Teamwork",
+    "Interpersonal Communication Skills",
+    "Adaptability and Flexibility",
+    "Curiosity and Continuous Learning"
   ],
   "hardSkills": [
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name",
-    "Skill name"
+    "Visual Studio",
+    "React",
+    "Matlab",
+    "Flutter",
+    "Arduino Frameworks",
+    "Microsoft Azure",
+    "EasyEDA"
   ]
 }

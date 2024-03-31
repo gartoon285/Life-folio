@@ -1,9 +1,8 @@
 import { Box, styled, Link } from "@mui/material";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import { StyleConstants } from "../../../styles/StyleConstants";
 import { Key, useEffect } from "react";
 import { logo } from "../../../data/constants";
+import { Margin } from "@mui/icons-material";
 interface IExperience {
   span?: string;
   company?: string;
@@ -48,11 +47,11 @@ const CompanyWrapper = styled(Box)(({ theme }) => ({
   display: "flex",
   "& .logo": {
     marginRight: 10,
-    height: 85,
-    width: 85,
+    height: 100,
+    width: 100,
     "& img": {
-      height: 85,
-      width: 85,
+      height: 100,
+      width: 100,
     },
   },
   "& .employment-info": {
@@ -84,46 +83,23 @@ const Experience = ({ experience }: Prop) => {
     company = "",
     span,
     location,
-    twitter = "",
-    linkedIn = "",
     progress = [],
   } = experience;
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const com = "wuttikorn"
   return (
     <Wrapper>
       <CompanyWrapper>
         <div className="logo">
-          <img src={logo[company.toLowerCase()]} alt="logo" />
+          <img src={logo[com.toLowerCase()]} alt="logo" />
         </div>
         <div className="employment-info">
-          <div className="name bold">{company}</div>
-          <div>{location}</div>
-          <div>{span}</div>
-          <div>
-            {linkedIn && (
-              <Link
-                href={linkedIn}
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "black" }}
-              >
-                <LinkedInIcon style={{ marginRight: 6 }} />
-              </Link>
-            )}
-            {twitter && (
-              <Link
-                href={twitter}
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "black" }}
-              >
-                <TwitterIcon />
-              </Link>
-            )}
-          </div>
+          <div className="name bold">Wuttikorn communication <br/>and supply</div>
+          <div style={{marginLeft: -135}}>{location}</div>
+          <div style={{marginLeft: -129}}>{span}</div>
         </div>
       </CompanyWrapper>
       <DescriptionWrapper>

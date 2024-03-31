@@ -1,41 +1,30 @@
 [
   {
-    "span": "Year Month -  current",
-    "company": "Google",
+    "span": "2020 - 2021",
+    "company": "Wuttikorn communication",
     "linkedIn": "https://www.linkedin.com/company/google/",
     "twitter": "https://twitter.com/googleindia",
-    "location": "City, State",
+    "location": "Chumphon",
     "progress": [
       {
-        "role": "Role Name",
-        "span": "Year Month - Current",
+        "role": "Freelance",
+        "span": "2020 - 2021",
         "descriptions": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-          "In commodi consequatur quidem? Nemo officiis inventore praesentium hic saepe ut delectus"
+          "work about install CCTV and setup Network,and Maintenance PC in office"
         ]
       },
       {
-        "role": "Role Name",
-        "span": "Year Month - Year Month",
+        "role": "Internship",
+        "span": "2021-2021",
         "descriptions": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi consequatur quidem? Nemo officiis inventore praesentium hic saepe ut delectus"
+          "work about install CCTV and setup Network,and Maintenance PC in office"
         ]
-      }
-    ]
-  },
-  {
-    "span": "Year July - Year Month",
-    "company": "Google",
-    "location": "City, State",
-    "linkedIn": "https://www.linkedin.com/company/google/",
-    "twitter": "https://twitter.com/googleindia",
-    "progress": [
+      },
       {
-        "role": "Role Name",
-        "span": "Year Month - Year Month",
+        "role": "Technician",
+        "span": "2022-2022",
         "descriptions": [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi consequatur quidem? Nemo officiis inventore praesentium hic saepe ut delectus",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi consequatur quidem? Nemo officiis inventore praesentium hic saepe ut delectus"
+          "work about install CCTV and setup Network,and Maintenance PC in office"
         ]
       }
     ]

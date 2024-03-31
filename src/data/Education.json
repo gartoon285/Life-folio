@@ -1,26 +1,26 @@
 [
   {
-    "name": "Institute name",
-    "location": "City, State",
-    "course": "Course Name",
-    "span": "year - year",
-    "specialization": "major name",
-    "score": "9 CGPA"
+    "name": "Chumphon Technical College",
+    "location": "Chumphon",
+    "course": "Vocational certificate",
+    "span": "2017-2020",
+    "specialization": "Technology Computer",
+    "score": "GPAX 3.45"
   },
   {
-    "name": "Institute name",
-    "location": "City, State",
-    "course": "Course Name",
-    "span": "year-year",
-    "specialization": "major name",
-    "score": "90 %"
+    "name": "Chumphon Technical College",
+    "location": "Chumphon",
+    "course": "High vocational certificate",
+    "span": "2020-2022",
+    "specialization": "Computer Hardware",
+    "score": "GPAX 3.30"
   },
   {
-    "name": "Institute name",
-    "location": "City, State",
-    "course": "Course Name",
-    "span": "year-year",
-    "specialization": "",
-    "score": "90 %"
+    "name": "King mongkut's university of technology north Bangkok",
+    "location": "Bangkok",
+    "course": "Bachelor's degree certificate",
+    "span": "2022-Present",
+    "specialization": "Electronics Computer",
+    "score": "GPAX 3.08"
   }
 ]
