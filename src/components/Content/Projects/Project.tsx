@@ -3,11 +3,10 @@ import ProjectImg from "../../../assets/project.jpg";
 import { projectImage } from "../../../data/constants";
 import { CustomButton } from "../../../styles/sectionStyles";
 import { StyleConstants } from "../../../styles/StyleConstants";
+const sourceCode = require("../../../assets/Lazy_farm.ino");
 interface project {
   name?: string;
   description?: string;
-  sourceCode?: string;
-  demoLink?: string;
 }
 interface Prop {
   project: project;
@@ -50,8 +49,6 @@ export const Project = ({ project }: Prop) => {
   const {
     name = "",
     description = "",
-    sourceCode = "",
-    demoLink = "",
   } = project;
   return (
     <ProjectWrapper>
@@ -62,11 +59,6 @@ export const Project = ({ project }: Prop) => {
           <CustomButton>
             <a href={sourceCode} target="_blank" rel="noreferrer">
               Source Code
-            </a>
-          </CustomButton>
-          <CustomButton>
-            <a href={demoLink} target="_blank" rel="noreferrer">
-              Demo
             </a>
           </CustomButton>
         </div>
