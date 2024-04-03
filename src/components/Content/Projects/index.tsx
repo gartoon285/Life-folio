@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Box, styled } from "@mui/material";
+import { Box} from "@mui/material";
 import { SectionWrapper, TitleWrapper } from "../../../styles/sectionStyles";
 import { Project } from "./Project";
 import projects from "../../../data/Projects.json";

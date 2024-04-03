@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Box, Grid } from "@mui/material";
 import { SectionWrapper, TitleWrapper } from "../../../styles/sectionStyles";
-import { Education } from "./Education";
+import { Education1 } from "./Education";
 import education from "../../../data/Education.json";
 export const EducationContainer = () => {
   useEffect(() => {
@@ -15,7 +15,7 @@ export const EducationContainer = () => {
         <Grid container spacing={3}>
           {education.map((edu, ind) => (
             <Grid item xs={12} key={ind}>
-              <Education education={edu} ind={ind} />
+              <Education1 education={edu} ind={ind} />
             </Grid>
           ))}
         </Grid>

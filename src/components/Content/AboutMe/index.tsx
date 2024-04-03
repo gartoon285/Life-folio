@@ -1,5 +1,5 @@
 import { styled, Box } from "@mui/material";
-import MyImage from "../../../assets/pict.jpg";
+import MyPic from "../../../assets/pict.jpg";
 import Resume from "../../../assets/resume.pdf";
 import {
   CustomButton,
@@ -40,7 +40,7 @@ export const AboutMe = () => {
     <SectionWrapper>
       <TitleWrapper>About Me</TitleWrapper>
       <AboutMeContainer>
-        <img src={MyImage} />
+        <img src={MyPic} alt="sd"/>
         <DetailsWrapper>
           <div>
           I’m Sathaporn Bunyiseng. I’m interested in IoT or Microcontroller. I started writing code to control Microcontroller since 2015. <br/>In 2018 I got honorable mention in a project competition using Microcontroller.

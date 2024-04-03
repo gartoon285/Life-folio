@@ -55,7 +55,7 @@ const EducationWrapper = styled(Box)(({ theme }) => ({
     },
   },
 }));
-export const Education = ({ education, ind }: Prop) => {
+export const Education1 = ({ education, ind }: Prop) => {
   return (
     <EducationWrapper className={clsx({ reverse: ind % 2 !== 0 })}>
       <div className="span">{education.span}</div>

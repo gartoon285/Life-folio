@@ -1,4 +1,4 @@
-import { Box, Grid, styled } from "@mui/material";
+import { Box,styled } from "@mui/material";
 import { NavigationList } from "./Navigation";
 import { SectionsRoot } from "./SectionsRoot";
 const Wrapper = styled(Box)(({ theme }) => ({

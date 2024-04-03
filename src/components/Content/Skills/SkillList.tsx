@@ -57,7 +57,7 @@ export const SkillList = ({ type, skills }: Prop) => {
         type === "softSkills" ? "Soft" : "Hard"
       } Skills`}</Box>
       <Box className="skillIcon">
-        <img src={type === "softSkills" ? SoftSkill : HardSkill} />
+        <img src={type === "softSkills" ? SoftSkill : HardSkill} alt="softskill"/>
       </Box>
       <Box className="skillsList">
         {skills.map((skill, ind) => (

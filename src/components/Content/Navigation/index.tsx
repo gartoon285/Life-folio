@@ -5,7 +5,6 @@ import { IRootState } from "../../../store/types";
 import { sectionImages } from "../utils";
 import { setCurrentSection } from "./slice";
 import Arrow from "../../../assets/arrow.png";
-import { useNavigationSize } from "../../../hooks/useNavigationSize";
 import { StyleConstants } from "../../../styles/StyleConstants";
 
 const NavigationWrapper = styled(Box)(({ theme }) => ({
@@ -102,7 +101,7 @@ export const NavigationList = () => {
           className={`arrow before ${start === 0 && "disabled"}`}
           onClick={() => setStart((val) => val - 1)}
         >
-          <img src={Arrow} />
+          <img src={Arrow} alt="arrow" />
         </Box>
       )}
       {filteredSections.slice(start, start + limit).map((sec) => (
@@ -126,7 +125,7 @@ export const NavigationList = () => {
           }`}
           onClick={() => setStart((val) => val + 1)}
         >
-          <img src={Arrow} />
+          <img src={Arrow} alt="arrow1" />
         </Box>
       )}
     </NavigationWrapper>

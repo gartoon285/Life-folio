@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.21b7164d.css",
-    "main.js": "/static/js/main.0f895b3a.js",
+    "main.js": "/static/js/main.ba8eb049.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/project.jpg": "/static/media/project.0b9bf4b1eef0f83395b2.jpg",
-    "static/media/resume.pdf": "/static/media/resume.6ecdd069f355ff06099c.pdf",
+    "static/media/project.jpg": "/static/media/project.40e4c7e084f8830d5a41.jpg",
+    "static/media/resume.pdf": "/static/media/resume.61c7b4d63c33967d64b3.pdf",
+    "static/media/pict.jpg": "/static/media/pict.4f974b205a79594edc5d.jpg",
+    "static/media/Work.jpg": "/static/media/Work.07df454159cb04a92fe4.jpg",
     "static/media/education.png": "/static/media/education.3682fa5ac4f8df3fd30d.png",
+    "static/media/Lazy_farm.ino": "/static/media/Lazy_farm.df81cc469f1ae29060b2.ino",
     "index.html": "/index.html",
     "main.21b7164d.css.map": "/static/css/main.21b7164d.css.map",
-    "main.0f895b3a.js.map": "/static/js/main.0f895b3a.js.map",
+    "main.ba8eb049.js.map": "/static/js/main.ba8eb049.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21b7164d.css",
-    "static/js/main.0f895b3a.js"
+    "static/js/main.ba8eb049.js"
   ]
 }

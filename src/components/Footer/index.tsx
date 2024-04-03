@@ -1,9 +1,8 @@
-import { styled, Box, Stack, Link, Divider } from "@mui/material";
+import { styled, Box,Link} from "@mui/material";
 import { StyleConstants } from "../../styles/StyleConstants";
 import Contact from "../../data/Contact.json";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { CustomButtonFooter } from "../../styles/sectionStyles";
 const FooterContainer = styled(Box)(({ theme }) => ({
   height: 150,
   width: "100%",

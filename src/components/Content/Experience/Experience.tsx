@@ -1,8 +1,7 @@
-import { Box, styled, Link } from "@mui/material";
+import { Box, styled} from "@mui/material";
 import { StyleConstants } from "../../../styles/StyleConstants";
 import { Key, useEffect } from "react";
 import { logo } from "../../../data/constants";
-import { Margin } from "@mui/icons-material";
 interface IExperience {
   span?: string;
   company?: string;
@@ -80,7 +79,6 @@ const DescriptionWrapper = styled(Box)(({ theme }) => ({
 }));
 const Experience = ({ experience }: Prop) => {
   const {
-    company = "",
     span,
     location,
     progress = [],
